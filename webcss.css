@@ -1,0 +1,156 @@
+/*######版面設計######*/
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+header{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+
+
+#oldnews{
+	padding:0px;
+	margin-left:50px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+footer{
+	margin-bottom: 30px;
+
+}
+
+/*##### 細節設計 #####*/
+
+#banner{
+	float: left;
+}
+
+#banner h1{
+	margin: 20px 0px 0px 0px;
+}
+
+#banner img{
+	vertical-align: bottom;
+	width: 350px;
+}
+
+nav{
+	float: right;
+	margin: 0px 0px 0px 0px;
+	font-size: 20px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+	
+}
+
+nav ul{
+	margin: 50px 0px 0px 0px;
+	padding: 0;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+
+}
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px ;
+    text-decoration: none;
+    color: #f05347;
+    border-bottom: solid 3px transparent;
+}
+
+nav li a:hover{
+	border-bottom-color:#aac2c9;
+}
+
+
+
+.post{
+	float:left;
+	width:350px;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+
+.post:last-child{
+	margin-right:0;
+}
+
+
+.post img{
+	position: relative;
+	float:left;
+	width:350px;
+	transition-duration: 1s;
+}
+
+.mask{
+	position: absolute;
+	float:left;
+	background-color:rgba(60,88,96,0.8);
+    opacity: 0;
+    width:350px;
+    height:273.104px;
+}
+
+
+
+
+.post .mask h3{
+	font-family:'PingFant TC',sans-serif;
+	font-weight:300;
+    color: #ffffff;
+    font-size:20px;
+	text-align:left;
+	margin:120px 0px 0px 20px;
+	letter-spacing:1.5px;
+}
+
+ 
+.post:hover .mask {
+  opacity:1;
+}
+
+
+
+
+
+
+/*### FOOTER ###*/
+.back{
+	margin-top:30px;
+	margin-bottom:50px;
+
+}
+
+.back a h1{
+	padding:30px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	color:#6b96a2;
+	font-size:20px;
+	text-align:center;
+	text-decoration: none;
+	transition-duration: 1s;
+
+
+}
+
+.back a h1:hover{
+  color:#f05347;
+
+}
+
