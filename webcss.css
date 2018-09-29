@@ -1,6 +1,6 @@
 /*######版面設計######*/
 
-body {
+html,body {
 	margin:0px;
 	padding:0px;
 	font-family: 'PT Sans', sans-serif;
@@ -10,14 +10,14 @@ body {
 header{
 	margin-top: 20px;
 	margin-bottom: 50px;
+	margin-left:0px;
 	overflow: hidden;
 }
 
 
-
 #oldnews{
-	padding:0px;
-	margin-left:50px;
+	padding:0;
+	margin-left:30px;
 	margin-bottom: 20px;
 	overflow: hidden;
 }
@@ -115,7 +115,7 @@ nav li a:hover{
     color: #ffffff;
     font-size:20px;
 	text-align:left;
-	margin:120px 0px 0px 20px;
+	margin:120px 0px 0px 30px;
 	letter-spacing:1.5px;
 }
 
